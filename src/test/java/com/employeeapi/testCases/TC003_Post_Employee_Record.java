@@ -37,6 +37,7 @@ public class TC003_Post_Employee_Record extends TestBase{
 	String empAge=RestUtils.empAge();
 	
 	
+	@SuppressWarnings("unchecked")
 	@BeforeClass
 	void createEmployee() throws InterruptedException
 	{

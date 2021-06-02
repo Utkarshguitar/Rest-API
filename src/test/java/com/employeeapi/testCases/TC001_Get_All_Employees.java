@@ -22,8 +22,7 @@ import com.employeeapi.base.TestBase;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
+
 
 
 public class TC001_Get_All_Employees extends TestBase{
